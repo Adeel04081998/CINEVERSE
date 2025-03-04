@@ -24,13 +24,6 @@ module.exports = {
                 '@helpers': './src/helpers',
                 '@authScreens': './src/screens/AuthStackScreen',
                 '@tabScreens': './src/screens/TabStackScreen',
-
-                
-
-
-
-
-
             },
         },
     ],
