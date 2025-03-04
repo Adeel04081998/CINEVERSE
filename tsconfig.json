@@ -1,3 +1,44 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+        "@assets": ["assets"],
+        "@assets/*": ["assets/*"],
+        "@components": ["components"],
+        "@components/*": ["components/*"],
+        "@redux": ["redux"],
+        "@redux/*": ["redux/*"],
+        "@screens": ["screens"],
+        "@screens/*": ["screens/*"],
+        "@authScreens":["authScreens"],
+        "@authScreens/*":["authScreens/*"],
+        "@tabScreens":["tabScreens"],
+        "@tabScreens/*":["tabScreens/*"],
+        "@utils": ["utils"],
+        "@utils/*": ["utils/*"],
+        "@custom-types": ["types"],
+        "@custom-types/*": ["types/*"],
+        "@network": ["network"],
+        "@network/*": ["network/*"],
+        "@constants": ["src/constants"],
+        "@constants/*": ["src/constants/*"],
+        "@navigation": ["navigation"],
+        "@navigation/*": ["navigation/*"],
+        "@manager": ["manager"],
+        "@manager/*": ["manager/*"],
+        "@hooks": ["hooks"],
+        "@hooks/*": ["hooks/*"],
+        "@theme": ["theme"],
+        "@theme/*": ["theme/*"],
+        "@styles": ["styles"],
+        "@styles/*": ["styles/*"],
+        "@helpers": ["helpers"],
+        "@helpers/*": ["helpers/*"],
+
+    }
+},
+"typeRoots": ["./src/types",],
+
 }
+
